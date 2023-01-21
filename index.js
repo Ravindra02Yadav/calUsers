@@ -14,7 +14,6 @@ app.use(cors({
 app.get("/",(req,res)=>{
     res.send("Welcome To Home Routes");
 })
-
 app.use('/users', UserRouter);
 
 
